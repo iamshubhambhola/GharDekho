@@ -40,3 +40,8 @@ homelogo.addEventListener('click',homeGo);
 function homeGo(){
     window.location.href="index.html";
 }
+
+
+document.querySelector('.socialclick').addEventListener('click',()=>{
+    alert('We are currently not on any social media...just for design purpose!!');
+  });

@@ -13,8 +13,7 @@ function animeclose(){
     setTimeout(()=>{ 
         slideeW.classList.remove('actives'); 
     },1000);
-}   
-
+}    
 
 document.querySelector('button').addEventListener('click',()=>{
     alert('Form Submitted successfully! We will get back to you shortly!');

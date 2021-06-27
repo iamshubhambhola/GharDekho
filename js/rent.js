@@ -35,6 +35,11 @@ function barClicked() {
   nav.classList.toggle('visible');
 }
 
+
+document.querySelector('.socialclick').addEventListener('click',()=>{
+    alert('We are currently not on any social media...just for design purpose!!');
+  });
+
 const homelogo=document.querySelector('#homelogo');
 homelogo.addEventListener('click',homeGo);
 function homeGo(){

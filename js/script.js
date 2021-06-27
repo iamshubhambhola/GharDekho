@@ -89,3 +89,8 @@ function show(){
 function close(){ 
     mainmenu.style.display= 'none'; 
 }
+
+
+document.querySelector('footer a.socialclick').addEventListener('click',()=>{
+    alert('We are currently not on any social media...just for design purpose!!');
+  });
