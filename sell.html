@@ -4,13 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sell.css">
     <title>Sell</title>
 </head>
 <body onload="animeload()">
     <div class="slide"></div>
     <div class="slide-w"></div> 
-    
-    <script src="js/script.js"></script>
+    <a href="index.html">Back to Home</a>
+    <div id="container">
+
+        <span class="input">
+          <input type="text" class="input__field" id="input-1" required />
+          <label for="input-1" class="input__label">
+            <span class="input__label-content">Owner First Name</span>
+        </label>
+        </span>
+      
+        <span class="input">
+          <input type="text" class="input__field" id="input-2" required/>
+          <label for="input-2" class="input__label">
+            <span class="input__label-content">Owner Last Name</span>
+          </label>
+        </span>
+      
+        <span class="input">
+          <input type="text" class="input__field" id="input-3" required/>
+          <label for="input-3" class="input__label">
+            <span class="input__label-content">Phone Number</span>
+          </label>
+        </span>
+      
+        <span class="input">
+          <input type="email" class="input__field" id="input-4" required />
+          <label for="input-4" class="input__label">
+            <span class="input__label-content">Email Address</span>
+          </label>
+        </span>
+        
+        <span class="input">
+            <input type="text" class="input__field" id="input-5" required/>
+            <label for="input-5" class="input__label">
+              <span class="input__label-content">Location</span>
+            </label>
+          </span>
+        
+          <span class="input">
+            <input type="number" class="input__field" id="input-6" required />
+            <label for="input-6" class="input__label">
+              <span class="input__label-content">Minimum Price</span>
+            </label>
+          </span>
+      
+        <span class="input message">
+          <textarea class="input__field" id="input-7" required></textarea>
+          <label for="input-7" class="input__label">
+            <span class="input__label-content">Describe in detail about your house....</span>
+          </label>
+        </span>
+      
+        <button id="send-button" type="button">Send</button>
+      
+      </div> 
+    <script src="js/sell.js"></script>
 </body>
 </html>
