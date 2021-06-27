@@ -72,6 +72,9 @@ nav ul li a:hover{
   nav>ul{
     padding-left: 7rem;
   }
+  .num.text-bold{
+    display: none;
+  }
 }
 
 @media screen and  (max-width: 610px) {    
