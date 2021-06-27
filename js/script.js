@@ -57,3 +57,35 @@ const changeSlide = (direction) => {
     slideRight.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`
     slideLeft.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`
 }
+
+
+
+
+ 
+
+// Setting up the Variables
+var bars = document.getElementById("nav-action");
+var nav = document.getElementById("nav");
+
+
+//setting up the listener
+bars.addEventListener("click", barClicked, false); 
+bars.addEventListener("click", myfunc1); 
+function myfunc1(){
+    document.querySelector('main').style.paddingTop="50rem"
+} 
+
+//setting up the clicked Effect
+function barClicked() {
+  bars.classList.toggle('active');
+  nav.classList.toggle('visible');
+}
+ 
+const mainmenu = document.querySelector('.mainmenu'); 
+function show(){ 
+    mainmenu.style.display = 'flex';
+    mainmenu.style.top = '0'; 
+}
+function close(){ 
+    mainmenu.style.display= 'none'; 
+}
