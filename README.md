@@ -1,5 +1,5 @@
 # GharDekho
-1. To run the website locally just clone the main branch on your loacl system and use any editor to see the code and
+1. To run the website locally just clone the main branch on your local system, use any editor to see the code and
     just open "index.html" file with any browser.
     
     The whole website is made purely with HTML/CSS and Javascript.
