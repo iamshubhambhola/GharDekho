@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
   <title>GharDekho</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale.0">
+  <link rel="icon" href="favicon.ico" type="image/icon type" sizes="64x64" /> 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css"> 
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases
+  /v5.10.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+          integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+  <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Google font -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family
+  =Poppins:400,500,600,700,800&display=swap"> 
 </head>
 
 <body onload="animeload()">
-  <div class="slide"></div>
-  <div class="slide-w"></div>
   <header>
     <nav>
       <div class="logo">
-        <p class="homepage"><img style="padding-bottom: 0.7rem;" src="img/logo.png" alt="logo" width="34rem" /><span
-            style="color: rgb(250, 209, 223); padding-left: 1px;">GharDekho</span></p>
+        <p class="homepage"><img style="padding-bottom: 0.7rem;" src="img/logo.png" alt="logo" width="34rem" /><span style="color: rgb(250, 209, 223); padding-left: 1px;">GharDekho</span></p>
       </div>
       <ul>
         <li><a href="#" class="active">Home</a></li>
@@ -31,7 +39,7 @@
       </ul>
       <li><a href="#parallax-image">Contact</a></li>
       </ul>
-    </nav>
+    </nav> 
     <div class="sliderBody"><div class="slider-container">
       <div class="left-slide">
         <div style="background-color: rgb(253, 215, 235);color: gray;">
@@ -67,152 +75,524 @@
       </div>
     </div></div>
   </header>
+  <div class="slide"></div>
+  <div class="slide-w"></div> 
   <main>
-    <!-- Top Background-Image wrapper -->
+        <!-- Top Background-Image wrapper -->
     <section class="wrapper" id="top-part">
-      <div class="overlay">
-        <!-- Cover Image and the Banner texts-->
-        <div class="d-flex-c container text-center w-70 text-white" id="banner-text">
-          <p class="subtitle font-xs">India's No.1 Property Portal</p>
-
-          <!-- Main Heading -->
-          <h1 class="title font-x4">Explore Real-Estate</h1>
-
-          <p class="subtitle font-xs">Ghar Dekho is the largest publicly listed real estate
-            company in India, with residential, commercial, and retail properties in 15 states and 24 cities
-          </p>
-
-          <!-- Button -->
-          <div><a href="#text-section" class="btn btn-pink font-xs">Read More</a>
-
+          <div class="overlay">
+            <!-- Cover Image and the Banner texts-->
+            <div class="d-flex-c container text-center w-70 text-white" id="banner-text">
+              <p class="subtitle font-xs">India's No.1 Property Portal</p>
+    
+              <!-- Main Heading -->
+              <h1 class="title font-x4">Explore Real-Estate</h1>
+    
+              <p class="subtitle font-xs">Ghar Dekho is the largest publicly listed real estate
+                company in India, with residential, commercial, and retail properties in 15 states and 24 cities
+              </p>
+    
+              <!-- Button -->
+              <div><a href="#text-section" class="btn btn-pink font-xs">Read More</a>
+    
+              </div>
+    
+            </div>
+    
+            <!-- Three boxes below the cover image -->
+            <div class="w-70 text-dark text-center d-flex-r" id="box">
+    
+                 <!-- Box 1 (white bg) -->
+                 <div class="box-item bg-white">
+                   <i class="fas fa-coffee text-pink font-x2"></i>
+                   <h4 class="text-black font-x1">The Master of Real-Estate</h4>
+                   <p class="font-xs">Whether you’re buying, selling, or browsing Zillow
+                      has something for you. If you’re listing a home on Zillow yourself,
+                      you’ll receive access to a sales proceeds calculator, your home’s
+                      “zestimated” value, a local news feed, and tools to help you price
+                      your home accurately.</p>
+                 </div>
+    
+                 <!-- Box 2 (pink bg) -->
+                   <div class="box-item bg-light-pink">
+                     <i class="fas fa-clock text-pink font-x2"></i>
+                     <h4 class="text-black font-x1">Home Worth</h4>
+                     <p class="font-xs">Sellers can calculate what their home’s worth,
+                      discover how to start the home-selling process, and learn how to
+                      select just the right agent for their needs. And, Realtor.com is
+                      licensed from the National Association of REALTORS®, so you can
+                      trust the content you find here.</p>
+                   </div>
+    
+                   <!-- Box (white-bg) -->
+                   <div class="box-item bg-white">
+                     <i class="fas fa-truck-moving text-pink font-x2"></i>
+                     <h4 class="text-black font-x1">Trustful</h4>
+                     <p class="font-xs">Trulia goes beyond static listings. They source
+                       insights from the people who live in your neighborhood to offer
+                       buyers neighborhood map overlays that provide deeper understanding
+                       of the community they’re buying into. See the prices of recently
+                       sold homes in your neighborhood and home values in your community.</p>
+                   </div>
+    
+            </div>
+    
           </div>
-
-        </div>
-
-        <!-- Three boxes below the cover image -->
-        <div class="w-70 text-dark text-center d-flex-r" id="box">
-
-          <!-- Box 1 (white bg) -->
-          <div class="box-item bg-white">
-            <i class="fas fa-coffee text-pink font-x2"></i>
-            <h4 class="text-black font-x1">The Master of Real-Estate</h4>
-            <p class="font-xs">Whether you’re buying, selling, or browsing Zillow
-              has something for you. If you’re listing a home on Zillow yourself,
-              you’ll receive access to a sales proceeds calculator, your home’s
-              “zestimated” value, a local news feed, and tools to help you price
-              your home accurately.</p>
-          </div>
-
-          <!-- Box 2 (pink bg) -->
-          <div class="box-item bg-light-pink">
-            <i class="fas fa-clock text-pink font-x2"></i>
-            <h4 class="text-black font-x1">Home Worth</h4>
-            <p class="font-xs">Sellers can calculate what their home’s worth,
-              discover how to start the home-selling process, and learn how to
-              select just the right agent for their needs. And, Realtor.com is
-              licensed from the National Association of REALTORS®, so you can
-              trust the content you find here.</p>
-          </div>
-
-          <!-- Box (white-bg) -->
-          <div class="box-item bg-white">
-            <i class="fas fa-truck-moving text-pink font-x2"></i>
-            <h4 class="text-black font-x1">Trustful</h4>
-            <p class="font-xs">Trulia goes beyond static listings. They source
-              insights from the people who live in your neighborhood to offer
-              buyers neighborhood map overlays that provide deeper understanding
-              of the community they’re buying into. See the prices of recently
-              sold homes in your neighborhood and home values in your community.</p>
-          </div>
-
-        </div>
-
-      </div>
     </section>
     <section class="wrapper text-dark bg-light-pink" id="image-grid">
-
-      <!-- Title -->
-      <div class="container">
-        <h2 class="heading text-black text-center font-x3">Some glimpses of our projects</h2>
-      </div>
-
-      <!-- Grid Begins -->
-      <div class="container-grid d-flex-c">
-        <!-- First Row -->
-        <ul class="d-flex-r">
-          <li class="hover1">
-            <img class="img" src="img/house1.jpg">
-            <div class="overlay">
-              <h2>Insights</h2>
-
-            </div>
-          </li>
-          <li class="hover1">
-            <img class="img" src="img/house2.jpg">
-            <div class="overlay">
-              <h2>Insights</h2>
-
-            </div>
-          </li>
-          <li class="hover1">
-            <img class="img" src="img/house3.jpg">
-            <div class="overlay">
-              <h2>Insights</h2>
-
-            </div>
-          </li>
-        </ul>
-
-        <!-- Second Row -->
-        <ul class="d-flex-r">
-
-          <li class="hover1">
-            <img class="img" src="img/house4.jpg">
-            <div class="overlay">
-              <h2>Insights</h2>
-
-            </div>
-          </li>
-          <li class="hover1">
-            <img class="img" src="img/house5.jpg">
-            <div class="overlay">
-              <h2>Insights</h2>
-
-            </div>
-          </li>
-        </ul>
-
-        <!-- Third Row -->
-        <ul class="d-flex-r">
-          <li class="hover1">
-            <img class="img" src="img/house6.jpg">
-            <div class="overlay">
-              <h2>Insights</h2>
-
-            </div>
-          </li>
-          <li class="hover1">
-            <img class="img" src="img/house7.jpg">
-            <div class="overlay">
-              <h2>Insights</h2>
-
-            </div>
-          </li>
-          <li class="hover1">
-            <img class="img" src="img/house1.jpg">
-            <div class="overlay">
-              <h2>Insights</h2>
-
-            </div>
-          </li>
-        </ul>
-
-      </div>
-
+    
+          <!-- Title -->
+          <div class="container">
+            <h2 class="heading text-black text-center font-x3">Some glimpses of our projects</h2>
+          </div>
+    
+          <!-- Grid Begins -->
+          <div class="container-grid d-flex-c">
+            <!-- First Row -->
+            <ul class="d-flex-r">
+              <li class="hover1">
+                <img class="img" src="img/house1.jpg">
+                <div class="overlay">
+                  <h2>Insights</h2>
+    
+                </div>
+              </li>
+              <li class="hover1">
+                <img class="img" src="img/house2.jpg">
+                <div class="overlay">
+                  <h2>Insights</h2>
+    
+                </div>
+              </li>
+              <li class="hover1">
+                <img class="img" src="img/house3.jpg">
+                <div class="overlay">
+                  <h2>Insights</h2>
+    
+                </div>
+              </li>
+            </ul>
+    
+            <!-- Second Row -->
+            <ul class="d-flex-r">
+    
+              <li class="hover1">
+                <img class="img" src="img/house4.jpg">
+                <div class="overlay">
+                  <h2>Insights</h2>
+    
+                </div>
+              </li>
+              <li class="hover1">
+                <img class="img" src="img/house5.jpg">
+                <div class="overlay">
+                  <h2>Insights</h2>
+    
+                </div>
+              </li>
+            </ul>
+    
+            <!-- Third Row -->
+            <ul class="d-flex-r">
+              <li class="hover1">
+                <img class="img" src="img/house6.jpg">
+                <div class="overlay">
+                  <h2>Insights</h2>
+    
+                </div>
+              </li>
+              <li class="hover1">
+                <img class="img" src="img/house7.jpg">
+                <div class="overlay">
+                  <h2>Insights</h2>
+    
+                </div>
+              </li>
+              <li class="hover1">
+                <img class="img" src="img/house1.jpg">
+                <div class="overlay">
+                  <h2>Insights</h2>
+    
+                </div>
+              </li>
+            </ul>
+    
+          </div>
+      
     </section>
-
-  </main>
-  <footer><div class="footer" id="contact-footer">
+    <section class="cards row bg-light-pink">
+      <div class="card">
+        <img class="img" src="img/buy.png" alt="buy">
+        <h1>BUY</h1>
+        <p>Lorem ipsum dolo endi numquam, tempore ex nulla et qui beatae deleniti fuga.</p>
+        <a href="buy.html" class="btn btn-pink font-xs">Search Homes</a>
+      </div>
+      <div class="card">
+        <img class="img" src="img/sell.jpg" alt="buy">
+        <h1>SELL</h1>
+        <p>Lorem ipsum dolo endi numquam, tempore ex nulla et qui beatae deleniti fuga.</p>
+        <a href="sell.html" class="btn btn-pink font-xs">List Your Home</a>
+      </div>
+      <div class="card">
+        <img class="img" src="img/rent.jpg" alt="buy">
+        <h1>RENT</h1>
+        <p>Lorem ipsum dolo endi numquam, tempore ex nulla et qui beatae deleniti fuga.</p>
+        <a href="rent.html" class="btn btn-pink font-xs">Search Rentals</a>
+      </div>
+    </section> 
+    <section> 
+  
+      <!-- Text Section -->
+      <section class ="wrapper text-dark" id="text-section">
+  
+        <div class="d-flex-c container">
+          <div class="text-center d-flex-c">
+            <h2 class="heading text-black text-center font-x3">Ghar Dekho - The Obvious Choice to Buy, Sell and Rent Property</h2>
+  
+            <p class="my-2">Our team helps you find the right price for your property with genuine leads</p>
+          </div>
+  
+          <!--- This div will divide the available width into two halves -->
+          <div class="d-flex-r" id="text-section-divider">
+  
+            <!-- first half (left-half) -->
+            <div class="d-flex-r mx-2 w-50">
+              <!-- first column in first half -->
+              <div class="m-1" id="grid-text">
+  
+                <!-- 1/4 -->
+                <div class="padd">
+                  <h6 class="heading padd text-black font-x1"><a class="text-black">Genuine Leads</a></h6>
+                  <p class="text-justify">Home seekers get
+                    a virtual tour of your property. Only those
+                    with genuine interest approach you.&hellip;</p>
+                </div>
+  
+                <!-- 2/4 -->
+                <div>
+                  <h6 class="heading padd font-x1"><a class="text-black">Sell Faster</a></h6>
+                  <p class="text-justify">Advertise your property to millions
+                    of customers and instantly get the right price for your property
+                    .&hellip;</p>
+                </div>
+  
+              </div>
+  
+            <!-- second column in first half -->
+            <div class="m-1" id="grid-text">
+  
+              <!-- 3/4 -->
+              <div class="padd">
+                <h6 class="heading padd font-x1"><a class="text-black">Real Photographs</a></h6>
+                <p class="text-justify">Upgrade your listing and
+                  get a photoshoot of your house shot by our photographers. View the portfolio
+                  of pictures
+                  for each studio in advance to ensure that you find the style you like&hellip;</p>
+              </div>
+  
+              <!-- 4/4 -->
+              <div>
+                <h6 class="heading padd font-x1"><a class="text-black">Unparalleled Convenience</a></h6>
+                <p class="text-justify">Our highly trained customer support team
+                  helps you through the process.&hellip;</p>
+              </div>
+  
+            </div>
+          </div>
+  
+            <!-- second half(right half)-->
+            <div class="w-50">
+              <h6 class="heading font-x1"><a class="text-black">Buy/Sell/Rent Property Online</a></h6>
+              <p class="my-1 text-Justify">Looking at a property listing website that
+                will effectively help you sell your house? Wondering where to advertise
+                rentals? Join GharDekho.com, a free property listing site wherein you
+                can post free property ads online to list property for sale or post
+                ad for rent. All you need to do is furnish a comprehensive property
+                list with accurate and relevant details of your property.In a matter of
+                minutes, GharDekho.com will help your property get the much-needed
+                visibility. Property advertisements are the best way to reach out
+                to potential homebuyers and tenants and shortlisting the best among
+                the pool of the real estate listing websites should be your first step.
+                A builder, an owner or an agent need not spend hours to sell house online
+                or trying a hand at online rental. Listing property is a matter of few
+                minutes and you are done.
+                GharDekho.com has a commendable traffic and millions of prospective
+                homebuyers and tenants visit the website every day.
+                Make the most of this opportunity to be visible and post
+                unlimited real estate listings</p>
+                <div class="text-left"><a href="buy.html" class="btn btn-pink">Get started</a>
+  
+                </div>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </section>
+  
+      <!-- 2X2 Image-Text Grid -->
+      <section class="wrapper bg-light-pink" id="features-grid">
+        <div class="features-grid-container">
+          <!-- Title -->
+          <div class="container d-flex-r text-center">
+            <h2 class="title text-black font-x3">Glimpse of
+              our furnitures</h2>
+          </div>
+  
+          <!-- First Row(image -> text) -->
+          <div class="d-flex-r features-grid-row" id="first-row">
+  
+            <!-- first half of image -->
+            <div class="features-grid-row-img w-50">
+              <img class="img furniture-1" src="img/Furniture-1.jpg" alt="">
+  
+            </div>
+  
+            <!-- second half for text -->
+            <div class="d-flex-r features-grid-row-text w-50">
+              <div class="m-3">
+                <h2 class="text-pink font-x2">Shop for bedroom furniture</h2>
+                <div>
+                  <p class="text-dark text-justify font-xs">From our tastefully
+                    curated selection of bed frames, wardrobes, mattresses and
+                    bedding you can be assured that you will be spoilt for choice
+                    searching for quality bedroom furniture online. A bed one of
+                    your most prized pieces of furniture in your home thanks to the
+                    comfort and utility it offers</p>
+  
+                </div>
+                <div><a href="#parallax-text-grid" class="btn btn-pink">View More</a></div>
+  
+              </div>
+  
+            </div>
+          </div>
+  
+          <!-- Second Row ( text -> image)-->
+          <div class="d-flex-r features-grid-row" id="Second-row">
+            <!-- First Row(image -> text) -->
+            <div class="d-flex-r features-grid-row" id="first-row">
+  
+              <!-- second half of image -->
+              <div class="features-grid-row-img w-50">
+                <img class="img furniture-2" src="img/Furniture-2.jpg" alt="">
+  
+              </div>
+  
+              <!-- first half for text -->
+              <div class="d-flex-r features-grid-row-text w-50">
+                <div class="m-3">
+                  <h2 class="text-pink font-x2">Shop for living room furniture</h2>
+                  <div>
+                    <p class="text-dark text-justify font-xs">Durian offers a selection
+                      of furniture to suit your diverse requirements. All our bedroom
+                      furniture comes in a selection of finishes and styles be it
+                      vintage modern or contemporary coupled with smart storage units
+                      and wardrobes made using solid wood and wooden materials to
+                      decorate your space</p>
+  
+                  </div>
+                  <div><a href="#parallax-text-grid" class="btn btn-pink">View More</a></div>
+  
+                </div>
+  
+              </div>
+          </div>
+  
+        </div>
+  
+      </section>
+  
+      <!-- Parallax Image -->
+      <section class="wrapper" id="parallax-image">
+        <article class="d-flex-c text-white container text-center">
+          <div class="my-2">
+            <h6 class="heading padd-2 font-x3">We are proud of us</h6>
+            <p>We're creating a seemless online experience from shopping
+            on the largest rental network, to applying for buying</p>
+  
+          </div>
+          <div><a href="#contact-footer" class="btn btn-pink">Get in Contact&raquo;</a>
+  
+          </div>
+  
+        </article>
+  
+      </section>
+  
+      <!-- Our blog panels -->
+      <section class="wrapper text-dark" id="our-blog">
+  
+        <div class="d-flex-c container">
+  
+          <!-- Title -->
+          <div class="text-center">
+            <h2 class="heading padd font-x3 text-black">Easily find homes near you</h2>
+            <p class="padd">Nearest and finest homes near you according to your need</p>
+  
+          </div>
+  
+          <!-- Panel begin -->
+          <div class="d-flex-r" id="our-blog-panel">
+  
+            <!-- First panel -->
+            <article class="hover2 m-2">
+              <figure>
+                <a href="#"><img class="img" src="img/house9.jpg"></a></figure>
+                <h3 class="m-2 text-center heading font-x1">Delivers
+                  the best real estate deals first</h3>
+                  <p class="m-2 text-justify font-xs">As you know, perfect
+                    timing – not just "location, location, location" – is
+                    critical when it comes to purchasing a new home and/or
+                    investment property at the right (lowest possible) price&hellip;</p> 
+             </article>
+  
+             <!-- Second panel -->
+             <article class="hover2 m-2">
+               <figure>
+                 <a href="#"><img class="img" src="img/house10.jpg"></a></figure>
+                 <h3 class="m-2 text-center heading font-x1">Best real
+                   estate deals in your area</h3>
+                   <p class="m-2 text-justify font-xs">And that search can be
+                     performed at the state, county and city levels – even
+                     the exact address and/or zip code – so that your house
+                     hunt hits the ground running. Once you start digging into
+                     the incredible foreclosure deals, each listing will be
+                     complete with asking price&hellip;</p> 
+              </article>
+  
+              <!-- Third panel -->
+              <article class="hover2 m-2">
+                <figure>
+                  <a href="#"><img class="img" src="img/house11.jpg"></a></figure>
+                  <h3 class="m-2 text-center heading font-x1">We update
+                  our database atleast twice a day</h3>
+                    <p class="m-2 text-justify font-xs">Not weekly or monthly
+                      like other sites out there. This ensures that we offer
+                      prospective homebuyers and investors with the freshest,
+                      hottest deals on the Internet. In fact, most of our
+                      information comes direct from hundreds of corporate
+                      sellers and multiple government agencies &hellip;</p>
+                       
+               </article>
+  
+          </div>
+  
+        </div>
+  
+      </section>
+  
+      <!-- Text Grid with parallax Image -->
+      <section class="wrapper" id="parallax-text-grid">
+        <div class="overlay p-3">
+  
+          <div class="d-flex-r left-card" id="parallax-text-grid-divider">
+  
+            <!-- First half (left) with 40 % width of the container -->
+            <div class="w-40 d-flex-c text-left text-white">
+              <h4 class="subtitle font-x1">And that's not all...</h4>
+              <h2 class="font-x3">4 Reasons to visit us</h2>
+              <p class="font-xs">America's largest provider of distressed
+                properties, with more than 1.8 million foreclosure,
+                preforeclosure, bankruptcy and tax lien listings across the
+                United States located conveniently in one place. We deliver
+                the latest, most complete residential foreclosure property
+                listings in an easy</p>
+                <div class="font-xs"><a href="#contact-footer" class="btn btn-pink">Visit us</a>
+  
+                </div>
+            </div>
+  
+            <!-- Second half (right) with 60% width of the conatiner -->
+            <div class="w-60 cards-4 d-flex-c" id="right-half">
+  
+              <!-- First row -->
+              <div class="d-flex-r font-xs">
+                <!-- card 1/4 -->
+                <div class="card-2 p-2">
+                  <div class="title">
+                    <span class="num text-bold">01.</span>
+                    <h4 class="card-title m-0 text-bold text-white">OUR TEAM</h4>
+                  </div>
+                      <p class="card-text padd-4 text-white">We provides
+                        distressed property statistics to highly respected
+                        national media outlets. That's because our listings
+                        and analysis of current — and future — marketplace
+                        trends are second to none.</p> 
+                </div>
+  
+                    <!-- card 2/4 -->
+                    <div class="card-2 p-2">
+                      <div class="title">
+                        <span class="num text-bold">02.</span>
+                        <h4 class="card-title m-0 text-bold text-white">OUR SERVICES</h4>
+                      </div>
+                          <p class="card-text padd-4 text-white">Foreclosure.com provides
+                            distressed property statistics to highly respected
+                            national media outlets. That's because our listings
+                            and analysis of current — and future — marketplace
+                            trends are second to none.</p> 
+                    </div>
+  
+                  </div>
+  
+                  <!-- Second row -->
+                  <div class="d-flex-r font-xs">
+                    <!-- card 3/4 -->
+                    <div class="card-2 p-2">
+                      <div class="title">
+                        <span class="num text-bold">03.</span>
+                        <h4 class="card-title m-0 text-bold text-white">OUR MOTO</h4>
+                      </div>
+                          <p class="card-text text-white">Foreclosure.com provides
+                            distressed property statistics to highly respected
+                            national media outlets. That's because our listings
+                            and analysis of current — and future — marketplace
+                            trends are second to none.</p> 
+                    </div>
+  
+                        <!-- card 4/4 -->
+                        <div class="card-2 p-2">
+                          <div class="title">
+                            <span class="num text-bold">04.</span>
+                            <h4 class="card-title m-0 text-bold text-white">OUR EXPERIENCE</h4>
+                          </div>
+                              <p class="card-text text-white">Foreclosure.com provides
+                                distressed property statistics to highly respected
+                                national media outlets. That's because our listings
+                                and analysis of current — and future — marketplace
+                                trends are second to none.</p> 
+                        </div>
+  
+                      </div>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+  
+            </div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+  
+  
+          </div>
+  
+        </div>
+  
+      </section>
+      
+    </section>
+  
+      <!-- Main footer --> 
+    <footer><div class="footer" id="contact-footer">
         <div class="container">     
             <div class="row">                       
                 <div class="col-lg-4 col-sm-4 col-xs-12">
@@ -267,7 +647,9 @@
         </div><!--- END CONTAINER -->
       </div>
     </footer>
-  <script src="js/script.js"></script>
+  </main>
+  
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,16 +1,586 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="css/buy_rent.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Rent</title>
 </head>
-<body onload="animeload()">
-    <div class="slide"></div>
-    <div class="slide-w"></div> 
-    
-    <script src="js/script.js"></script>
+
+<body style="background-color: #fff8fe;" onload="animeload()">
+
+    <div class="slidee"></div>
+    <div class="slidee-w"></div>
+
+    <header>
+        <nav class="navv">
+            <img class="logo" id="homelogo" src="img/logo2.png" alt="logo">
+        </nav>
+        <!--HamBurger Icon-->
+        <div class="bars" id="nav-action">
+            <span class="bar"> </span>
+        </div>
+
+        <!--Navbar Links-->
+        <nav id="nav">
+            <ul>
+                <li class="shape-circle circle-one"><a href="#kolkata">Kolkata</a></li>
+                <li class="shape-circle circle-two"><a href="#mumbai">Mumbai</a></li>
+                <li class="shape-circle circle-three"><a href="#delhi">Delhi</a></li>
+                <li class="shape-circle circle-five">
+                    <a href="#chennai">Chennai</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Main Body Content-->
+        <article class="container">
+            <h1>Explore<br> the<br> Rentals</h1>
+            <p> just mail or call for further information </p>
+            <a target="_blank">Get started by clicking on hamburger or Scroll down some more</a>
+        </article>
+
+
+
+    </header>
+
+    <main>
+        <section class="wrapper-full delhi tab-container effectTab-header" id="style_2">
+            <div class="wrapper tab-item">
+                <div class="custom-row">
+                    <div class="wrapper" align="center">
+                        <h1 class="ti title" id="delhi">Delhi</h1>
+                    </div>
+                    <div class="column-12 column-sm-12 tab">
+                        <div class="custom-row">
+                            <div class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab">
+                                <div class="effect effect-two">
+                                    <img class="images" src="img/1bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>14k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">1BHK, 400 sqr feet, DWARKA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab hide-xs hide visible-sm visible-md">
+                                <div class="effect effect-two">
+                                    <img class="images" src="img/3bhk4.jpg" width="100%" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>21k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">3BHK, 800 sqr feet, DWARKA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-8 hide-md column-xs-12 hide-xs hide-sm box-tab">
+                                <div class="effect grid-width8 effect-two">
+                                    <img class="images" src="img/4bhk1.jpg" width="100%" height="280rem"
+                                        class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>50k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">4BHK, 1100 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-6 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width6 effect-two">
+                                    <img class="images" src="img/2bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>20k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">2BHK, 690 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/3bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">22k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">3BHK, 970 sqr feet, JANAKPURI</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-xs hide-md hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/2bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">14k p.m. NOIDA</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">2BHK </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-12 column-sm-12 tab">
+                        <div class="custom-row">
+                            <div class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab">
+                                <div class="effect effect-two">
+                                    <img class="images" src="img/2bhk3.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>19k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">2BHK, 500 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab hide-xs hide visible-sm visible-md">
+                                <div class="effect effect-two">
+                                    <img class="images" src="images/image-1.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>Column 4</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">Replace the dummy text with your image description</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-8 hide-md column-xs-12 hide-xs hide-sm box-tab">
+                                <div class="effect grid-width8 effect-two">
+                                    <img class="images" src="img/4bhk2.jpg" width="100%" height="280rem"
+                                        class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>44k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">4BHK, 1170 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-6 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width6 effect-two">
+                                    <img class="images" src="img/4bhk3.jpeg" width="100%" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>34k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">4BHK, 1000 sqr feet, ROHTAK</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/1bhk2.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">10k p.m., GREATER NOIDA</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">1BHK</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-xs hide-md hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/2bhk3.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">15k p.m.</h2>
+                                        <p class="icon-links"><a href="#"><i class=" fa fa-phone"></i></a> <a
+                                                href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">2BHK, 550 sqr feet, VAISHALI</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper-full mumbai tab-container effectTab-header" id="style_2">
+            <div class="wrapper tab-item">
+                <div class="custom-row">
+                    <div class="wrapper" align="center">
+                        <h1 class="ti title" id="mumbai">Mumbai</h1>
+                    </div>
+                    <div class="column-12 column-sm-12 tab">
+                        <div class="custom-row">
+                            <div class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab">
+                                <div class="effect effect-two">
+                                    <img class="images" src="img/1bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>10k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">1BHK, 400 sqr feet, DWARKA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab hide-xs hide visible-sm visible-md">
+                                <div class="effect effect-two">
+                                    <img class="images" src="img/3bhk4.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>21k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">3BHK, 800 sqr feet, DWARKA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-8 hide-md column-xs-12 hide-xs hide-sm box-tab">
+                                <div class="effect grid-width8 effect-two">
+                                    <img class="images" src="img/4bhk1.jpg" width="100%" height="280rem"
+                                        class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>19k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">4BHK, 1100 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-6 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width6 effect-two">
+                                    <img class="images" src="img/2bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>14k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">2BHK, 690 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/3bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">20k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">3BHK, 970 sqr feet, JANAKPURI</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-xs hide-md hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/2bhk1.jpg" width="100%" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">14k p.m., NOIDA</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">2BHK </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper-full kolkata tab-container effectTab-header" id="style_2">
+            <div class="wrapper tab-item">
+                <div class="custom-row">
+                    <div class="wrapper" align="center">
+                        <h1 class="ti title" id="kolkata">Kolkata</h1>
+                    </div>
+                    <div class="column-12 column-sm-12 tab">
+                        <div class="custom-row">
+                            <div class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab">
+                                <div class="effect effect-two">
+                                    <img class="images" src="img/1bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>9k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">1BHK, 400 sqr feet, DWARKA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab hide-xs hide visible-sm visible-md">
+                                <div class="effect effect-two">
+                                    <img class="images" src="img/3bhk4.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>21k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">3BHK, 800 sqr feet, DWARKA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-8 hide-md column-xs-12 hide-xs hide-sm box-tab">
+                                <div class="effect grid-width8 effect-two">
+                                    <img class="images" src="img/4bhk1.jpg" height="280rem" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>34k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">4BHK, 1100 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-6 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width6 effect-two">
+                                    <img class="images" src="img/2bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>14k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="#"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">2BHK, 690 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/3bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">19.5k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">3BHK, 970 sqr feet, JANAKPURI</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-xs hide-md hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/2bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">14k p.m. NOIDA</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">2BHK </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-12 column-sm-12 tab">
+                        <div class="custom-row">
+                            <div class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab">
+                                <div class="effect effect-two">
+                                    <img class="images" src="img/2bhk3.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>14k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">2BHK, 500 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab hide-xs hide visible-sm visible-md">
+                                <div class="effect effect-two">
+                                    <img class="images" src="images/image-1.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>Column 4</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">Replace the dummy text with your image description</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-8 hide-md column-xs-12 hide-xs hide-sm box-tab">
+                                <div class="effect grid-width8 effect-two">
+                                    <img class="images" src="img/4bhk2.jpg" height="280rem" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>44k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">4BHK, 1170 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-6 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width6 effect-two">
+                                    <img class="images" src="img/4bhk3.jpeg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>35k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">4BHK, 1000 sqr feet, ROHTAK</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/1bhk2.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">10k p.m. GREATER NOIDA</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">1BHK</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-xs hide-md hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/2bhk3.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">13k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">2BHK, 550 sqr feet, VAISHALI</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper-full chennai tab-container effectTab-header" id="style_2">
+            <div class="wrapper tab-item">
+                <div class="custom-row">
+                    <div class="wrapper" align="center">
+                        <h1 class="ti title" id="chennai">Chennai</h1>
+                    </div>
+                    <div class="column-12 column-sm-12 tab">
+                        <div class="custom-row">
+                            <div class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab">
+                                <div class="effect effect-two">
+                                    <img class="images" src="img/1bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>10k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">1BHK, 400 sqr feet, DWARKA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab hide-xs hide visible-sm visible-md">
+                                <div class="effect effect-two">
+                                    <img class="images" src="img/3bhk4.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>25k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">3BHK, 800 sqr feet, DWARKA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-8 hide-md column-xs-12 hide-xs hide-sm box-tab">
+                                <div class="effect grid-width8 effect-two">
+                                    <img class="images" src="img/4bhk1.jpg" height="280rem" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>40k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">4BHK, 1100 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-6 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width6 effect-two">
+                                    <img class="images" src="img/2bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text">
+                                        <h2>15k p.m.</h2>
+                                        <p class="icon-links"><a href="#"><i class=" fa fa-phone"></i></a> <a
+                                                href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description col6">2BHK, 690 sqr feet, GREATER NOIDA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-md hide-xs hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/3bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">20k p.m.</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">3BHK, 970 sqr feet, JANAKPURI</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-3 hide-xs hide-md hide-sm box-tab">
+                                <div class="effect grid-width3 effect-two">
+                                    <img class="images" src="img/2bhk1.jpg" class="img-fluid">
+                                    <div class="tab-text col3">
+                                        <h2 class="col3-head">16k p.m., NOIDA</h2>
+                                        <p class="icon-links"><a href="tel:000000000"><i class=" fa fa-phone"></i></a>
+                                            <a href="mailto:email@example.com"><i class=" fa fa-envelope"></i></a> </p>
+                                        <p class="description">2BHK </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer" id="contact-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-4 col-xs-12">
+                        <div class="single_footer">
+                            <h4>Services</h4>
+                            <ul>
+                                <li>Buy/Sell/Rent Property Online</li>
+                                <li>Delivers the best real estate deals first</li>
+                                <li>Shop for living room furniture</li>
+                                <li>Advertise your property to millions of customers</li>
+                                <li>Helps you find the right price for your property</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--- END COL -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="single_footer single_footer_address">
+                            <h4>Page Link</h4>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html#box">About Us</a></li>
+                                <li><a href="buy.html">Search Homes</a></li>
+                                <li><a href="rent.html">Search Rentals</a></li>
+                                <li><a href="sell.html">List Your Home</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--- END COL -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="single_footer single_footer_address">
+                            <h4>Subscribe today</h4>
+                            <div class="signup_form">
+                                <form action="#" class="subscribe">
+                                    <input type="text" class="subscribe__input" placeholder="Enter Email Address">
+                                    <button type="button" class="subscribe__btn"><i
+                                            class="fas fa-paper-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="social_profile">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--- END COL -->
+                </div>
+                <!--- END ROW -->
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <p class="copyright">Copyright © 2021 <a href="#">GharDekho</a>.</p>
+                    </div>
+                    <!--- END COL -->
+                </div>
+                <!--- END ROW -->
+            </div>
+            <!--- END CONTAINER -->
+        </div>
+    </footer>
+    <script src="js/rent.js"></script>
 </body>
+
 </html>
